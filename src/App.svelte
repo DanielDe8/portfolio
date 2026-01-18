@@ -1,0 +1,99 @@
+<script>
+    import Project from "./components/Project.svelte"
+</script>
+
+<div class="bg-base-200 min-h-screen">
+    <!-- AI disclaimer -->
+    <div class="tooltip tooltip-left fixed top-4 right-4 z-20" data-tip="Tato stránka nebyla vytvořená umělou inteligencí (s výjimkou VS Code autocompletes)">
+        <!-- From svgrepo.com -->
+        <svg class="h-13 w-13" fill="#Fff" version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="800px" height="800px" viewBox="0 0 45.999 45.999" xml:space="preserve"> <g> <g> <path d="M39.264,6.736c-8.982-8.981-23.545-8.982-32.528,0c-8.982,8.982-8.981,23.545,0,32.528c8.982,8.98,23.545,8.981,32.528,0 C48.245,30.281,48.244,15.719,39.264,6.736z M25.999,33c0,1.657-1.343,3-3,3s-3-1.343-3-3V21c0-1.657,1.343-3,3-3s3,1.343,3,3V33z M22.946,15.872c-1.728,0-2.88-1.224-2.844-2.735c-0.036-1.584,1.116-2.771,2.879-2.771c1.764,0,2.88,1.188,2.917,2.771 C25.897,14.648,24.746,15.872,22.946,15.872z"/> </g> </g> </svg>
+    </div>
+    
+    <!-- Title -->
+    <!-- bg-[url(./assets/bg_mountains.png)] -->
+    <div class="p-40 bg-linear-to-t from-base-100 via-60% via-base-200 to-base-300 sticky top-0">
+        <h1 class="text-8xl font-extrabold text-center">Daniel Devečka - Portfolio</h1>
+    </div>
+
+    <!-- Navbar -->
+    <div class="navbar justify-evenly sticky top-0 p-0 m-0 bg-base-100 z-10">
+        <a href="#about" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">O mně</a>
+        <a href="#projects" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Projekty</a>
+        <a href="#skills" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Dovednosti</a>
+    </div>
+
+    <!-- Content -->
+    <div class="h-screen bg-base-200 relative top-0 text-xl">
+        <!-- Projects -->
+        <div>
+            <div id="projects" class="relative -top-30"></div> <!-- Anchor -->
+
+            <div class="p-15 bg-base-300">
+                <h2 class="text-6xl font-semibold">Projekty</h2>
+                <p class="text-3xl mt-7">
+                    Zde jsou některé z mých projekyů, na kterých jsem pracoval, nebo stále pracuji.
+                </p>
+            </div>
+
+            <Project
+                name="xo"
+                description='Online hra piškvorky s neomezeným polem a možností vytvoření účtu, napsaná v jazyce JavaScript s frameworky SvelteKit, Tailwind a DaisyUI na straně klienta a Node.js, Socket.io a Express na straně serveru, který běhá na Raspberry Pi v mém pokoji. <br>
+                        Základní kostra HTML byla vygenerována pomocí AI, vzhled stránce však dává DaisyUI. <br>
+                        Jde hrát proti náhodému soupeři, nebo proti přátelům pomocí unikátního odkazu. <br>
+                        Zdrojový kód pro server je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/xo-server" target="_blank">danielde8/xo-server</a>,
+                        pro klienta na: <a class="underline text-primary" href="https://github.com/danielde8/xo-frontend" target="_blank">danielde8/xo-frontend</a>'
+                imgSrc="assets/projects/xo.png"
+                imgWidth="160"
+                evenProject={ false }
+            />
+
+            <Project
+                name="SnakeOS"
+                description='Vlastní "operační systém" napsaný v jazycích C a Assembly pro architekturu i386, na kterém běží pouze hra Snake.
+                        Dá se spustit na emulátoru QEMU, na skutečném hardwaru se mi ho rozchodit zatím nepodařilo.
+                        Byl inspirován projektem <a class="underline text-accent" href="https://www.youtube.com/watch?v=FaILnmUYS_U" target="_blank">TetrisOS od jdh</a>. <br>
+                        Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/snakeos" target="_blank">danielde8/snakeos</a>'
+                imgSrc="assets/projects/snakeos.png"
+                imgWidth="140"
+                evenProject={ true }
+            />
+
+            <Project
+                name="MUPC"
+                description='MUPC (Mostly Useless Programmable Calculator) je vlastní 8-bitové CPU (zatím pouze návrh) s vlastním setem instrukcí, assemblerem a emulátorem.
+                        Emulátor je napsaný v jazyce C a assembler v Kotlinu. Samotné CPU momentálně designuji v Logisim Evolution. <br>
+                        Zdrojové kódy jsou dostupné na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/mupc" target="_blank">danielde8/mupc</a>,
+                        <a class="underline text-primary" href="https://github.com/danielde8/mupc-asm" target="_blank">danielde8/mupc-asm</a> a 
+                        <a class="underline text-primary" href="https://github.com/danielde8/mupc-emu" target="_blank">danielde8/mupc-emu</a>'
+                imgSrc="assets/projects/mupc.png"
+                imgWidth="130"
+                evenProject={ false }
+            />
+
+            <Project
+                name="XComps"
+                description='Aplikace pro Android napsaná v jazyce JavaScript s frameworky Svelte, Tailwind a DaisyUI, využívající Capacitor pro spuštění na mobilních zařízeních.
+                        Využívá web scraping a slouží k rychlému stahování souborů plachtařských soutěží z webů
+                        <a class="underline text-accent" href="https://www.soaringspot.com/" target="_blank">SoaringSpot</a> a
+                        <a class="underline text-accent" href="https://www.soarscore.com/" target="_blank">SoarScore</a>
+                        do složky programu XCSoar. <br>
+                        Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/xcomps" target="_blank">danielde8/xcomps</a>'
+                imgSrc="assets/projects/xcomps.png"
+                imgWidth="60"
+                evenProject={ true }
+            />
+        </div>
+
+        <!-- Skills -->
+        <div>
+            <div id="skills" class="relative -top-30"></div> <!-- Anchor -->
+
+            <div class="p-15 bg-base-300">
+                <h2 class="text-6xl font-semibold">Dovednosti</h2>
+                <p class="text-3xl mt-7">
+                    
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
