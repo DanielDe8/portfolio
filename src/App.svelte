@@ -43,7 +43,7 @@
                         Zdrojový kód pro server je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/xo-server" target="_blank">danielde8/xo-server</a>,
                         pro klienta na: <a class="underline text-primary" href="https://github.com/danielde8/xo-frontend" target="_blank">danielde8/xo-frontend</a>'
                 imgSrc="assets/projects/xo.png"
-                imgWidth="160"
+                imgWidth=160
                 evenProject={ false }
             />
 
@@ -54,7 +54,7 @@
                         Byl inspirován projektem <a class="underline text-accent" href="https://www.youtube.com/watch?v=FaILnmUYS_U" target="_blank">TetrisOS od jdh</a>. <br>
                         Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/snakeos" target="_blank">danielde8/snakeos</a>'
                 imgSrc="assets/projects/snakeos.png"
-                imgWidth="140"
+                imgWidth=140
                 evenProject={ true }
             />
 
@@ -66,7 +66,7 @@
                         <a class="underline text-primary" href="https://github.com/danielde8/mupc-asm" target="_blank">danielde8/mupc-asm</a> a 
                         <a class="underline text-primary" href="https://github.com/danielde8/mupc-emu" target="_blank">danielde8/mupc-emu</a>'
                 imgSrc="assets/projects/mupc.png"
-                imgWidth="130"
+                imgWidth=130
                 evenProject={ false }
             />
 
@@ -79,7 +79,7 @@
                         do složky programu XCSoar. <br>
                         Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/xcomps" target="_blank">danielde8/xcomps</a>'
                 imgSrc="assets/projects/xcomps.png"
-                imgWidth="60"
+                imgWidth=60
                 evenProject={ true }
             />
         </div>

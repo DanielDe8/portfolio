@@ -8,7 +8,7 @@
 
 <div class="px-25 py-10 flex space-x-15" class:bg-base-100={!evenProject} class:bg-base-200={evenProject}>
     {#if evenProject}
-        <img src="{imgSrc}" alt="{name}" class="flex-none w-{imgWidth}">
+        <img src="{imgSrc}" alt="{name}" class="flex-none" style="width:{imgWidth * 5}px">
     {/if}
 
     <div class="flex-auto">
@@ -19,6 +19,6 @@
     </div>
 
     {#if !evenProject}
-        <img src="{imgSrc}" alt="{name}" class="flex-none w-{imgWidth}">
+        <img src="{imgSrc}" alt="{name}" class="flex-none" style="width:{imgWidth * 5}px">
     {/if}
 </div>
