@@ -23,7 +23,7 @@
     </div>
 
     <!-- Content -->
-    <div class="h-screen bg-base-200 relative top-0 text-xl">
+    <div class="bg-base-200 relative top-0 text-xl">
         <!-- Projects -->
         <div>
             <div id="projects" class="relative -top-30"></div> <!-- Anchor -->
