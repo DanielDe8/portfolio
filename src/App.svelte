@@ -32,7 +32,7 @@
             <div class="p-15 bg-base-300">
                 <h2 class="text-6xl font-semibold">Projekty</h2>
                 <p class="text-3xl mt-7">
-                    Zde jsou některé z mých projekyů, na kterých jsem pracoval, nebo stále pracuji.
+                    Zde jsou některé z mých projektů, na kterých jsem pracoval, nebo stále pracuji.
                 </p>
             </div>
 
