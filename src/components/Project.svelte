@@ -6,6 +6,7 @@
     export let evenProject // every second project has image on the left and a different bg
 </script>
 
+<div id="{name}" class="relative -top-30"></div> <!-- Anchor -->
 <div class="px-25 py-10 flex space-x-15" class:bg-base-100={!evenProject} class:bg-base-200={evenProject}>
     {#if evenProject}
         <img src="{imgSrc}" alt="{name}" class="flex-none" style="width:{imgWidth * 5}px">
