@@ -210,7 +210,7 @@
             </div>
         </div>
         
-        <div class="bg-base-300 text-3xl py-3 text-center font-semibold">
+        <div class="bg-base-300 text-2xl py-7 text-center font-semibold">
             GitHub: <a class="underline text-primary" href="https://github.com/danielde8" target="_blank">github.com/danielde8</a>
         </div>
     </div>
