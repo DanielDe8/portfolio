@@ -9,6 +9,6 @@
     
     <div class="flex-auto">
         <h3 class="text-5xl font-semibold">{name}</h3>
-        <p class="text-2xl m-2">{@html description}</p>
+        <p class="text-2xl m-3">{@html description}</p>
     </div>
 </div>
