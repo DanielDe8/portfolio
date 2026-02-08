@@ -1,6 +1,7 @@
 <script>
     import Project from "./components/Project.svelte"
     import Skill from "./components/Skill.svelte"
+    import Other from "./components/Other.svelte"
 </script>
 
 <div class="bg-base-200 min-h-screen">
@@ -20,6 +21,7 @@
     <div class="navbar justify-evenly sticky top-0 p-0 m-0 bg-base-100 z-10">
         <a href="#projects" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Projekty</a>
         <a href="#skills" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Dovednosti</a>
+        <a href="#other" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Ostatní</a>
     </div>
 
     <!-- Content -->
@@ -84,6 +86,17 @@
                 imgWidth=60
                 evenProject={ true }
             />
+
+            <Project
+                name="Portfolio"
+                description='Tato webová stránka, kterou si právě prohlížíte, je také jeden z mých projektů.
+                    Napsaná je v jazyce JavaScript s frameworky Svelte, Tailwind a DaisyUI.
+                    Byla vytvořena bez použití AI (s výjimkou autocompletů ve VS Code). <br>
+                    Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/portfolio" target="_blank">danielde8/portfolio</a>'
+                imgSrc="assets/projects/portfolio.png"
+                imgWidth=140
+                evenProject={ false }
+            />
         </div>
 
         <!-- Skills -->
@@ -134,6 +147,65 @@
                         Většinou používám distribuci Ubuntu Server nebo Kali Linux. Na svém hlavním počítači mám sice macOS, ale mám i dva staré notebooky, které jsem přeinstaloval z Windows 7 na Linux.
                         První jsem používal jako Minecraft server pro kamarády, na druhém běží Kali, používám ho tedy na učení se KB, hlavně na <a class="underline text-accent" href="https://www.hackthebox.com/" target="_blank">Hack The Box</a>.'
                     imgSrc="assets/skills/tux.png"
+                />
+            </div>
+        </div>
+
+        <!-- Other -->
+        <div>
+            <div id="other" class="relative -top-30"></div> <!-- Anchor -->
+
+            <div class="p-15 bg-base-200">
+                <h2 class="text-6xl font-semibold">Ostatní</h2>
+                
+                <Other
+                    name="Robosoutěž"
+                    description='V rocích 2024 a 2025 jsem se účastnil Robosoutěže pro ZŠ na ČVUT v Praze za týmy
+                        <span class="font-bold">Mechanický chaos</span> a
+                        <span class="font-bold">18²</span>, kde jsem se s týmem umístil dvakrát na 7. místě.<br>
+                        Záznam z roku 2024 je na YouTube: <a class="underline text-accent" href="https://youtu.be/nf78Hmo0gtk?t=5339" target="_blank">Robosoutěž 2024 pro základní školy - 2. kolo (čtvrtek)</a><br>
+                        Záznam z roku 2025 je na YouTube: <a class="underline text-accent" href="hhttps://youtu.be/0mtSDXTiySE?t=17041" target="_blank">Robosoutěž 2025 pro základní školy - 1. kolo (středa)</a>'
+                    imgSrc="assets/other/robosoutez.png"
+                    imgWidth=140    
+                />
+
+                <Other
+                    name="Angličtina"
+                    description='Angličtinu používám hodně často, hlavně při programování, protože většina dokumentace je v angličtině, a proto většinou i kód píšu v angličtině.
+                        Mimo to jsem v šesté třídě navštívil USA na tři měsíce, kde jsem chodil do místní školy a momentálně jsem v USA znovu, tentokrát však pouze na dva měsíce.'
+                    imgSrc="assets/other/anglictina.png"
+                    imgWidth=140
+                />
+
+                <Other
+                    name="Videohry"
+                    description='Ve volném čase rád hraju videohry, buď singleplayer, nebo s kamarády. Mezi mé nejoblíbenější patří 
+                        <a class="underline text-accent" href="https://store.steampowered.com/app/264710/Subnautica/" target="_blank">Subnautica</a>,
+                        <a class="underline text-accent" href="https://store.steampowered.com/app/1174180/Red_Dead_Redemption_2/" target="_blank">Red Dead Redemption 2</a>, 
+                        <a class="underline text-accent" href="https://www.minecraft.net/en-us/" target="_blank">Minecraft</a>, 
+                        <a class="underline text-accent" href="https://store.steampowered.com/app/620/Portal_2/" target="_blank">Portal 2</a> a 
+                        <a class="underline text-accent" href="https://store.steampowered.com/app/220200/Kerbal_Space_Program/" target="_blank">Kerbal Space Program</a>
+                        - na kterém jsem se naučil základy orbitální mechaniky.'
+                    imgSrc="assets/other/gaming.png"
+                    imgWidth=140
+                />
+
+                <Other
+                    name="Housle"
+                    description='Na housle hraju už od 2. třídy, kdy jsem začal chodit do ZUŠ Vrané nad Vltavou.
+                        Moje nejoblíbenější skladba je <a class="underline text-accent" href="https://www.youtube.com/watch?v=yCzNSPKbXv8" target="_blank">Zdeňek Fibich - Sonatina</a>,
+                        kterou jsem hrál v roce 2025 (pouze však 1. větu). V roce 2026 budu mít absolventský koncert, na kterém budu hrát
+                        <a class="underline text-accent" href="https://www.youtube.com/watch?v=J6b7WH9Le-E" target="_blank">Vivaldi - Koncert G dur</a>.'
+                    imgSrc="assets/other/housle.jpg"
+                    imgWidth=140
+                />
+
+                <Other
+                    name="Vysokohorská turistika"
+                    description='Vzhledem k tomu, že máme příbuzné na Slovensku, často tam jezdíme a chodíme po horách.
+                        Nejraději mám Žiarsou dolinu, korétně Tri Kopy, a Kriváň, který jsem zdolal v roce 2024. Na fotce je pohled z Kriváně na Vysoké Tatry.'
+                    imgSrc="assets/other/hory.JPG"
+                    imgWidth=140
                 />
             </div>
         </div>
