@@ -18,7 +18,6 @@
 
     <!-- Navbar -->
     <div class="navbar justify-evenly sticky top-0 p-0 m-0 bg-base-100 z-10">
-        <a href="#about" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">O mně</a>
         <a href="#projects" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Projekty</a>
         <a href="#skills" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Dovednosti</a>
     </div>
