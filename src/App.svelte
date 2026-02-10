@@ -18,14 +18,14 @@
     </div>
 
     <!-- Navbar -->
-    <div class="navbar justify-evenly sticky top-0 p-0 m-0 bg-base-100 z-10">
-        <a href="#projects" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Projekty</a>
-        <a href="#skills" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Dovednosti</a>
-        <a href="#other" class="flex-none text-4xl font-bold p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Ostatní</a>
+    <div class="navbar justify-evenly sticky top-0 p-0 m-0 bg-base-100 z-10 text-4xl font-bold">
+        <a href="#projects" class="flex-none p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Projekty</a>
+        <a href="#skills" class="flex-none p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Dovednosti</a>
+        <a href="#other" class="flex-none p-10 hover:bg-base-200 transition-all duration-400 ease-in-out">Ostatní</a>
     </div>
 
     <!-- Content -->
-    <div class="bg-base-200 relative top-0 text-xl">
+    <div class="bg-base-200 relative top-0">
         <!-- Projects -->
         <div>
             <div id="projects" class="relative -top-30"></div> <!-- Anchor -->
@@ -33,7 +33,7 @@
             <div class="p-15 bg-base-300">
                 <h2 class="text-6xl font-semibold">Projekty</h2>
                 <p class="text-3xl mt-7">
-                    Zde jsou některé z mých projektů, na kterých jsem pracoval, nebo stále pracuji.
+                    Zde jsou některé z mých projektů, na kterých jsem pracoval nebo stále pracuji.
                 </p>
             </div>
 
@@ -42,7 +42,7 @@
                 description='Online hra piškvorky s neomezeným polem a možností vytvoření účtu. Napsaná v jazyce JavaScript s frameworky SvelteKit, Tailwind a DaisyUI na straně klienta a Node.js, Socket.io a Express na straně serveru.
                     Běhá buď na Raspberry Pi v mém pokoji, nebo na Dropletu v <a class="underline text-accent" href="https:/digitalocean.com" target="_blank">DigitalOcean</a>. <br>
                     Základní kostra HTML byla vygenerována pomocí AI, vzhled stránce však dává DaisyUI. <br>
-                    Jde hrát proti náhodému soupeři, nebo proti přátelům pomocí unikátního odkazu. <br>
+                    Jde hrát proti náhodému soupeři nebo proti přátelům pomocí unikátního odkazu. <br>
                     Hra běží na adrese: <a class="underline text-primary" href="https://xo.dandev.dev" target="_blank">xo.dandev.dev</a> <br>
                     Zdrojový kód pro server je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/xo-server" target="_blank">danielde8/xo-server</a>,
                     pro klienta na: <a class="underline text-primary" href="https://github.com/danielde8/xo-frontend" target="_blank">danielde8/xo-frontend</a>'
@@ -160,7 +160,7 @@
                 
                 <Other
                     name="Robosoutěž"
-                    description='V rocích 2024 a 2025 jsem se účastnil Robosoutěže pro ZŠ na ČVUT v Praze za týmy
+                    description='V letech 2024 a 2025 (7. a 8. třídě) jsem se účastnil Robosoutěže pro ZŠ na ČVUT v Praze za týmy
                         <span class="font-bold">Mechanický chaos</span> a
                         <span class="font-bold">18²</span>, kde jsem se s týmem umístil dvakrát na 7. místě.<br>
                         Záznam z roku 2024 je na YouTube: <a class="underline text-accent" href="https://youtu.be/nf78Hmo0gtk?t=5339" target="_blank">Robosoutěž 2024 pro základní školy - 2. kolo (čtvrtek)</a><br>
