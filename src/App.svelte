@@ -172,7 +172,7 @@
                 <Other
                     name="Angličtina"
                     description='Angličtinu používám hodně často, hlavně při programování, protože většina dokumentace je v angličtině, a proto většinou i kód píšu v angličtině.
-                        Mimo to jsem v šesté třídě navštívil USA na tři měsíce, kde jsem chodil do místní školy a momentálně jsem v USA znovu, tentokrát však pouze na dva měsíce.'
+                        Mimo to jsem v šesté třídě navštívil USA na tři měsíce, kde jsem chodil do místní školy. Momentálně jsem v USA znovu, na dva a půl měsíce, a tentokrát navštěvuji střední školu (v USA od 9. třídy).'
                     imgSrc="assets/other/anglictina.png"
                     imgWidth=140
                 />
@@ -193,8 +193,8 @@
                 <Other
                     name="Housle"
                     description='Na housle hraju už od 2. třídy, kdy jsem začal chodit do ZUŠ Vrané nad Vltavou.
-                        Moje nejoblíbenější skladba je <a class="underline text-accent" href="https://www.youtube.com/watch?v=yCzNSPKbXv8" target="_blank">Zdeňek Fibich - Sonatina</a>,
-                        kterou jsem hrál v roce 2025 (pouze však 1. větu). V roce 2026 budu mít absolventský koncert, na kterém budu hrát
+                        Moje nejoblíbenější skladba je <a class="underline text-accent" href="https://www.youtube.com/watch?v=yCzNSPKbXv8" target="_blank">Zdeňek Fibich - Sonatina</a>
+                        (1. věta), kterou jsem hrál v roce 2025. V roce 2026 budu mít absolventský koncert, na kterém budu hrát
                         <a class="underline text-accent" href="https://www.youtube.com/watch?v=J6b7WH9Le-E" target="_blank">Vivaldi - Koncert G dur</a>.'
                     imgSrc="assets/other/housle.jpg"
                     imgWidth=140
