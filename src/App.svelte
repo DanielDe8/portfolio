@@ -39,8 +39,8 @@
 
             <Project
                 name="xo"
-                description='Online hra piškvorky s neomezeným polem a možností vytvoření účtu. Napsaná v jazyce JavaScript s frameworky SvelteKit, Tailwind a DaisyUI na straně klienta a Node.js, Socket.io a Express na straně serveru.
-                    Běhá buď na Raspberry Pi v mém pokoji, nebo na Dropletu v <a class="underline text-accent" href="https:/digitalocean.com" target="_blank">DigitalOcean</a>. <br>
+                description='Online hra piškvorky s neomezeným polem a možností vytvoření účtu. Napsaná v jazyce JavaScript s frameworky SvelteKit, Tailwind a DaisyUI na straně klienta a Node.js, Socket.io a Express na straně serveru.<br>
+                    Server běhá buď na Raspberry Pi v mém pokoji, nebo na Dropletu v <a class="underline text-accent" href="https:/digitalocean.com" target="_blank">DigitalOcean</a>. <br>
                     Základní kostra HTML byla vygenerována pomocí AI, vzhled stránce však dává DaisyUI. <br>
                     Jde hrát proti náhodému soupeři nebo proti přátelům pomocí unikátního odkazu. <br>
                     Hra běží na adrese: <a class="underline text-primary" href="https://xo.dandev.dev" target="_blank">xo.dandev.dev</a> <br>
@@ -90,7 +90,7 @@
             <Project
                 name="Portfolio"
                 description='Tato webová stránka, kterou si právě prohlížíte, je také jeden z mých projektů.
-                    Napsaná je v jazyce JavaScript s frameworky Svelte, Tailwind a DaisyUI.
+                    Napsaná je v jazycích JavaScript a HTML s frameworky Svelte, Tailwind a DaisyUI, zveřejněná je přes Netlify.
                     Byla vytvořena bez použití AI (s výjimkou autocompletů ve VS Code). <br>
                     Zdrojový kód je dostupný na GitHubu: <a class="underline text-primary" href="https://github.com/danielde8/portfolio" target="_blank">danielde8/portfolio</a>'
                 imgSrc="assets/projects/portfolio.png"
