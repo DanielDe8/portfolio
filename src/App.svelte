@@ -203,7 +203,7 @@
                 <Other
                     name="Vysokohorská turistika"
                     description='Vzhledem k tomu, že máme příbuzné na Slovensku, často tam jezdíme a chodíme po horách.
-                        Nejraději mám Žiarsou dolinu, korétně Tri Kopy, a Kriváň, který jsem zdolal v roce 2024. Na fotce je pohled z Kriváně na Vysoké Tatry.'
+                        Nejraději mám Žiarsou dolinu, konkrétně Tri Kopy, a Kriváň, který jsem zdolal v roce 2024. Na fotce je pohled z Kriváně na Vysoké Tatry.'
                     imgSrc="assets/other/hory.JPG"
                     imgWidth=140
                 />
